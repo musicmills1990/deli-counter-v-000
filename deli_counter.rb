@@ -8,6 +8,7 @@ def line(array)
     puts "The line is currently: #{array.index - 1}"
   end
 end
+end
 
 
 def take_a_number(array, name)
