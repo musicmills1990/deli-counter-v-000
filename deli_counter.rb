@@ -17,7 +17,7 @@ end
 def take_a_number(array, name)
   if array.length == 0
     array.unshift(name)
-    puts "Welcome #{name}. You are number #{array.length} in line."
+    puts "Welcome, #{name}. You are number #{array.length} in line."
   end
 end
 
