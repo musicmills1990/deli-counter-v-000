@@ -19,7 +19,7 @@ def take_a_number(array, name)
     array.unshift(name)
     puts "Welcome, #{name}. You are number #{array.length} in line."
   elsif array.length > 0
-    array.unshift(name)
+    array << name
     puts "Welcome, #{name}. You are number #{array.length} in line."
   end
 end
